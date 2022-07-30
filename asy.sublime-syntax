@@ -14,3176 +14,3189 @@ contexts:
     - match: '\b(const|static|explicit|struct|typedef)\b'
       scope: storage.modifier
  
-    - match: '"'
-      scope: string.quoted.single
-
-    - match: '""'
-      scope: string.quoted.double
- 
     - match: '\b(if|else|while|for|do|break|return|continue|unravel)\b'
       scope: keyword.control
- 
- 
+
+
     - match: '\b(new|operator)\b'
       scope: keyword.operator
- 
- 
+
+
     - match: '\b(import|include|as|access|from)\b'
       scope: keyword.other
- 
- 
+
+
     - match: '\b(\d*)(\.?)\d+'
       scope: constant.numeric
- 
- 
+
+
     - match: '\b(debuggerlines)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(atanh)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(bool)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(int)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(real)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(string)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(pair)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(triple)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(transform)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(guide)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(path)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(path3)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(pen)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(frame)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(file)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(indexedTransform)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(scaling)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(hsv)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(coords2)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(Legend)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(bounds)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(filltype)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(picture)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(slice)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(position)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(framedTransformStack)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(projection)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(side)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(pairOrTriple)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(coords3)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(Label)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(scaleT)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(bool3)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(transformation)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(marker)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(ScaleT)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(processtime)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(arrowhead)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(coord)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(marginT)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(autoscaleT)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(align)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(light)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(object)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(cputime)\b'
       scope: storage.type
- 
- 
+
+
     - match: '\b(mintimes)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(deconstruct)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(eof)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Seascape)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(atupdate)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(write)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(beep)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(initialized)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(palecyan)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(sum)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(interp)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(lightblue)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(minbound)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(maxbound)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(abs)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arcpoint)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(conj)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(mediumred)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(seconds)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(min)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(max)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(sort)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(xformStack)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(deepgreen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(search)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(deactivatequote)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(diagonal)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(tuple)\b'
       scope: keyword.operator
- 
- 
+
+
     - match: '\b(mediumgrey)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(insphere)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(sin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(cos)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(tan)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(asin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(acos)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(atan)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(exp)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(log)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(markthin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(log10)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(sinh)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(blue)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(cosh)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(beginclip)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(shiftless)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(tanh)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(asinh)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(UpsideDown)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(acosh)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(NNE)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(sqrt)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(E)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(cbrt)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(_image)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(fabs)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(NoAlign)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(WNW)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(expm1)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(log1p)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(ldexp)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(pow10)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(debugger)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(identity)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(map)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(plain_bounds)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(realmult)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(intMax)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(stdout)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arrow2)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(intMin)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(inf)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(latitude)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(infinity)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(nan)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(usepackage)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(realMax)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(realMin)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(azimuth)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(realEpsilon)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(realDigits)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(filloutside)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(latex)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(randMax)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(pi)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(VERSION)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(currentpen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(interactive)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(printBytecode)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(isnan)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(right)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(nosetpagesize)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(jobname)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(resetdefaultpen)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(aCos)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(defaultpen)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(heavyblue)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(invisible)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(gray)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(rgb)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(cmyk)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(colors)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(box)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(hex)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(drawPRCtube)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(erase)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(byte)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Arrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(fontcommand)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(colorspace)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(norm)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(pattern)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(getstring)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(fillrule)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(bezierP)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(opacity)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(blend)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(unitrand)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(insert)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(linetype)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(offset)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(triangulate)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(scale)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(adjust)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(activatequote)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(currentpicture)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(linecap)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(linejoin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(remainder)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(miterlimit)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(stripextension)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(linewidth)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(close)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(font)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arcdir)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(fontsize)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(magenta)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(lineskip)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(overwrite)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(layer)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(basealign)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(nib)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(mediumgray)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(fft)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(makepen)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(graphicscale)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(getc)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(colorless)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(uptodate)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(system)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(view)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arrowsize)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(makedraw)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(asydir)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(deepgray)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(locale)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(abort)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(exit)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(assert)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(sleep)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(NE)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(usleep)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(dotframe)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(_eval)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(location)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(cd)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(RadialShade)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(needshipout)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(list)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(spec)\b'
       scope: keyword.operator
- 
- 
+
+
     - match: '\b(white)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(postcontrol)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(curl)\b'
       scope: keyword.operator
- 
- 
+
+
     - match: '\b(expi)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(tension)\b'
       scope: keyword.operator
- 
- 
+
+
     - match: '\b(controls)\b'
       scope: keyword.operator
- 
- 
+
+
     - match: '\b(legendlinelength)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(labels)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(size)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(buildRestoreDefaults)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(length)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(cyclic)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(point)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(unitcircle)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(dirSpecifier)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(controlSpecifier)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(tensionSpecifier)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Scale)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(curlSpecifier)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(tab)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(reverse)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(_cputime)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(begin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(shift)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(breakpoint)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(inverse)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(xscale)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(rgba)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(yscale)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Center)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(midpoint)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(stripfile)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(slant)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(truepoint)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(rotate)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(reflect)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(generate_random_backtrace)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arrowlength)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(print_random_addresses)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(empty)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(stripsuffix)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(_draw)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(fill)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(filldraw)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(latticeshade)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(axialshade)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(radialshade)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(gouraudshade)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(buildcycle)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(tensorshade)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(plain_scaling)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(functionshade)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(clip)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(endclip)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(gsave)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(nullpath)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(grestore)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(begingroup)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(endgroup)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(_begingroup3)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(endgroup3)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(overloadedMessage)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(add)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(prepend)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(postscript)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arrowbasepoints)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(darkmagenta)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(tex)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(texpreamble)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(deletepreamble)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(currentprojection)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Sin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(_labelpath)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(zpart)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(texreset)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(newpage)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Blank)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(nativeformat)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(pdf)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(history)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(shipout)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(marknodes)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(shipout3)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(nowarn)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(draw)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(rand)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(drawbeziertriangle)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(drawPRCsphere)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(drawPRCcylinder)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(drawPRCdisk)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(drawpixel)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(min3)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(prconly)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(max3)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(comma)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(size3)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(TrueMargin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(minratio)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(maxratio)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(is3D)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(erf)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(label)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(MidArrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(texsize)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(ZapfDingbats)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(_texpath)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(textpath)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(strokepath)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(_strokepath)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(readline)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(saveline)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(complement)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(startScript)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(erfc)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(sequence)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(all)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(mediumcyan)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(BeginMargin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(find)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(solve)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(determinant)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(input)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(AtA)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Dotted)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(project)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(polygon)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(dot)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(tridiagonal)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(newton)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(_findroot)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(simpson)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(dir)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(output)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(change2)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(minbezier)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(maxbezier)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(_projection)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(eol)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(error)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(olive)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(clear)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(legenditem)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(precision)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(flush)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(tell)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(seek)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(dashdotted)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(seekeof)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(delete)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(rename)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(addSaveFunction)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(mktemp)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(outname)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(atexit)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(atbreakpoint)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(exitfunction)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(locatefile)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(lastcut)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(cross)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(stop)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(breakpoints)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(warn)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(warning)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(stripdirectory)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(convert)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(animate)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(purge)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(lightyellow)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(rfind)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(substr)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(downcase)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(upcase)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(replace)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(format)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(lightred)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(transpose)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(ascii)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(time)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(squarecap)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(xpart)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(squarepen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(ypart)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(angle)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(degrees)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(radians)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Landscape)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Degrees)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(paleblue)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Cos)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(MarkPath)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Tan)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(radius)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(aSin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(aTan)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(unit)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(gamma)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(bezier)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(bezierPP)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(bezierPPP)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(settings)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(polar)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(colatitude)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(longitude)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(end)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(perp)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(precontrol)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(EndBar)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(accel)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(subpath)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(nurb)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(straight)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(unstraighten)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(piecewisestraight)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arclength)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(diagnostics)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arctime)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(embed3)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(dirtime)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(intersect)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(DefaultHead)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(intersections)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(RightSide)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(extension)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(bracemidangle)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(minAfterTransform)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(NoFill)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(maxAfterTransform)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(left)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(maxtimes)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(save)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(relativedistance)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(windingnumber)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(inside)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(orient)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(cyan)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(incircle)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(straightness)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(quotient)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(sgn)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(srand)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(mediumgreen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(ceil)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(floor)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(round)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Ceil)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arrowhookfactor)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Floor)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Round)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(fmod)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(atan2)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(down)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(hypot)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(UnFill)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Jn)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Shift)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Yn)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(factorial)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(choose)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(quadraticroots)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(cubicroots)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(sourceline)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(AND)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(OR)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(XOR)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(NOT)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(times)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(concat)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(CLZ)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(CTZ)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(report)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(plain)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(calculateScaling)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(firstcut)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(mm)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(outformat)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(inXasyMode)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(alias)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(lightmagenta)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(intersectionpoints)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arrowangle)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(palegray)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(NoMargin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(fuchsia)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(grey)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(MoveQuiet)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(array)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(dotsize)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(italic)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(MidArcArrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(N)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(I)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(EndArcArrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(darkred)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(cputimeformat)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(palegreen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(viewportsize)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(palered)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(randompath)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(unitsize)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(default)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(MarkFill)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Align)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(copy)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(SW)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(texify)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(black)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arrowfactor)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Pentype)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(EndDotMargin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(palegrey)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(purple)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(currentpatterns)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(buildRestoreThunk)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(TeXify)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(cut)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(undefined)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(brace)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(getpair)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(SuppressQuiet)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(legend)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(ArcArrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(dotfactor)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(newl)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Aspect)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(ArcArrows)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(nullpen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(evenodd)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(prc0)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(viewportmargin)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(SimpleHead)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(endpoint)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(shipped)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arrowsizelimit)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Helvetica)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(inches)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(reldir)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(darkblue)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(ignore)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(circlescale)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(springgreen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(restore)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(markuniform)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(FillDraw)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(legendmaxrelativewidth)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arrow2sizelimit)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(mediummagenta)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(darkbrown)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(math)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(getreal)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(saveFunctions)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arrowbarb)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(intersectionpoint)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Slant)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(bp)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(SSW)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(S)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(BeginPoint)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(attach)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Black)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(finite)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(ocgindex)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(expansionfactor)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Palatino)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(solid)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(file3)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arrowtexfactor)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Fill)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arc)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Bar)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(reltime)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(drawarrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Draw)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Courier)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(ENE)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Pen)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(savedefaults)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(fit)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(paleyellow)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(beginpoint)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(mediumyellow)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(drawstrokepath)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(circleprecision)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(prc)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(AvantGarde)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(margin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Allow)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(minipage)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(barsize)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(bar)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(DotMargin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(nobasealign)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(WSW)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(W)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(scale3)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(unitsquare)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(relpoint)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(relative)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(TeXHead)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(usersetting)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(endl)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(addArrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(lightgreen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(BeginBar)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(DOSnewl)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(barfactor)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(JOIN_IN)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(exitXasyMode)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(braceinnerangle)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(unfill)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(graphic)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(pause)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(dashed)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(restoredefaults)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(orientation)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arcarrowangle)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(thin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(JOIN_OUT)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(scaleless)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(NewCenturySchoolBook)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(none)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(braceouterangle)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(lightcyan)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(defaultformat)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arcarrowfactor)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(DotMargins)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(deepred)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(nomarker)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(bracedefaultratio)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(invert)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(ZapfChancery)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(CW)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Cyan)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(usetypescript)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(legendmargin)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(up)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(progress)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Margin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(deepgrey)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(roundcap)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(DOSendl)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(legendvskip)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Rotate)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Embed)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(MidPoint)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(lightgray)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(roundjoin)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Bars)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Symbol)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(IgnoreAspect)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Arrows)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(rotation)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(arrowbase)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(LeftSide)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Bookman)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(lightolive)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(mantissaBits)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(enclose)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(palemagenta)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(TimesRoman)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(split)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(ellipse)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(pink)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(texpath)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(BeginArrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(PenMargin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(endScript)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(mean)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(deepcyan)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(dotted)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(outprefix)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(brown)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(copyPairOrTriple)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(lightgrey)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(fixedscaling)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Move)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(interior)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Margins)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(pt)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(bbox)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(ESE)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(defaultseparator)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(initdefaults)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(roundbox)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(EndPoint)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(updatefunction)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(baseline)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(deepyellow)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(yellow)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arcarrowsize)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(BeginArcArrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(stdin)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(HookHead)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(getint)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(green)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(labelmargin)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(PenMargins)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(orange)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(beveljoin)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(defaultfilename)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(circle)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(extendcap)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(BeginPenMargin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(count)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(drawarrow2)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(darkolive)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(SSE)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Mark)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(BeginDotMargin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(RadialShadeDraw)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(NoSide)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Magenta)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(heavyred)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(thick)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(CCW)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(SE)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(sqrtEpsilon)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(chartreuse)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(EndPenMargin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(NNW)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(phantom)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(mediumblue)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(deepblue)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(None)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(longdashed)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(trim)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(uniform)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(camerafactor)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(heavygreen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(debugging)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(identity4)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(cm)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Relative)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(colorPen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(NW)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(eval)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(Yellow)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(miterjoin)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(gettriple)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(heavycyan)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(salmon)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(initXasyMode)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(darkgray)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(heavymagenta)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(darkgreen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(heavygray)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(verbatim)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(longdashdotted)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(deepmagenta)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(darkgrey)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(heavygrey)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(zerowinding)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(version)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(pack)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(legendhskip)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(darkcyan)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(EndArrow)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(EndMargin)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(inch)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(ask)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(pairs)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(red)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(plus)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Portrait)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(monoPen)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(Suppress)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(fit2)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(spinner)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(arrowdir)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(royalblue)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(currentlight)\b'
       scope: constant.language
- 
- 
+
+
     - match: '\b(rectify)\b'
       scope: support.function
- 
- 
+
+
     - match: '\b(asy)\b'
       scope: support.function
- 
- 
+
+
     - match: '\+|&|\||\^|==|!=|-|\*|/|<|<=|>=|>|%|#|\.\.|--|!|---|\^\^|::'
       scope: keyword.operator
 
+    - match: "'"
+      push: string.quoted.single
+
+    - match: '"'
+      push: string.quoted.double
+
+  string.quoted.double:
+    - meta_scope: string.quoted.double
+    - match: \\.
+      scope: constant.character.escape
+    - match: '"'
+      pop: true
+
+  string.quoted.single:
+    - meta_scope: string.quoted.single
+    - match: \\.
+      scope: constant.character.escape
+    - match: "'"
+      pop: true
