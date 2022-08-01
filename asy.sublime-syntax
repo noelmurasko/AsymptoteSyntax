@@ -6,8 +6,29 @@ file_extensions: asy
 scope: source.asy
 
 contexts:
+
+  string.quoted.double:
+    - meta_scope: string.quoted.double
+    - match: \\.
+      scope: constant.character.escape
+    - match: '"'
+      pop: true
+
+  string.quoted.single:
+    - meta_scope: string.quoted.single
+    - match: \\.
+      scope: constant.character.escape
+    - match: "'"
+      pop: true
+
   main:
- 
+
+    - match: "'"
+      push: string.quoted.single
+
+    - match: '"'
+      push: string.quoted.double
+
     - match: '//'
       scope: comment.line.double-slash
 
@@ -17,6 +38,8 @@ contexts:
     - match: '\b(if|else|while|for|do|break|return|continue|unravel)\b'
       scope: keyword.control
 
+    - match: '\+|&|\||\^|==|!=|-|\*|/|<|<=|>=|>|%|#|\.\.|--|!|---|\^\^|::'
+      scope: keyword.operator
 
     - match: '\b(new|operator)\b'
       scope: keyword.operator
@@ -3177,26 +3200,3 @@ contexts:
     - match: '\b(asy)\b'
       scope: support.function
 
-
-    - match: '\+|&|\||\^|==|!=|-|\*|/|<|<=|>=|>|%|#|\.\.|--|!|---|\^\^|::'
-      scope: keyword.operator
-
-    - match: "'"
-      push: string.quoted.single
-
-    - match: '"'
-      push: string.quoted.double
-
-  string.quoted.double:
-    - meta_scope: string.quoted.double
-    - match: \\.
-      scope: constant.character.escape
-    - match: '"'
-      pop: true
-
-  string.quoted.single:
-    - meta_scope: string.quoted.single
-    - match: \\.
-      scope: constant.character.escape
-    - match: "'"
-      pop: true
