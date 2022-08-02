@@ -15,6 +15,8 @@ contexts:
 
   string.quoted.double:
     - meta_scope: string.quoted.double
+    - match: "\\$"
+      push: string.quoted.other
     - match: \\.
       scope: constant.character.escape
     - match: '"'
@@ -25,6 +27,10 @@ contexts:
     - match: \\.
       scope: constant.character.escape
     - match: "'"
+      pop: true
+
+  string.quoted.other:
+    - match: "\\$"
       pop: true
 
   main:
