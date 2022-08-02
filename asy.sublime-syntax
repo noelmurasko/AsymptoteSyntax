@@ -24,6 +24,8 @@ contexts:
 
   string.quoted.single:
     - meta_scope: string.quoted.single
+    - match: "\\$"
+      push: string.quoted.other
     - match: \\.
       scope: constant.character.escape
     - match: "'"
