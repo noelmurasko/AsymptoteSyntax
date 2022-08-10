@@ -5,7 +5,7 @@
 # For more information on Asymptote, see https://asymptote.sourceforge.io.
 
 # Syntax highlighting supports Asymptote Version 2.82-59 and lower. Later
-# versions may contain grammer not currently recognized.
+# versions may contain grammar not currently recognized.
 
 name: Asymptote
 file_extensions: asy
