@@ -4,7 +4,7 @@
 # Asymptote: The Vector Graphics Language.
 # For more information on Asymptote, see https://asymptote.sourceforge.io.
 
-# Syntax highlighting supports Asymptote Version 2.82-59 and lower. Later
+# Syntax highlighting supports Asymptote Version 2.83-5 and lower. Later
 # versions may contain grammar not currently recognized.
 
 name: Asymptote
@@ -2672,6 +2672,9 @@ contexts:
       scope: support.function
 
     - match: '\b(orthic)\b'
+      scope: support.function
+
+    - match: '\b(orthocenter)\b'
       scope: support.function
 
     - match: '\b(orthocentercenter)\b'
