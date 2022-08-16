@@ -8,7 +8,7 @@
 # versions may contain grammar not currently recognized.
 
 name: Asymptote
-file_extensions: asy
+file_extensions: [asy]
 scope: source.asy
 
 contexts:
