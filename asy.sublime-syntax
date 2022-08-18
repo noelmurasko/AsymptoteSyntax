@@ -13,6 +13,16 @@ scope: source.asy
 
 contexts:
 
+  comment.line.asy:
+    - meta_scope: comment.line.asy
+    - match: "\n"
+      pop: true
+
+  comment.block.asy:
+    - meta_scope: comment.block.asy
+    - match: "\\*/"
+      pop: true
+
   string.quoted.double.asy:
     - meta_scope: string.quoted.double.asy
     - match: "\\$"
@@ -36,6 +46,12 @@ contexts:
       pop: true
 
   main:
+
+    - match: "//"
+      push: comment.line.asy
+
+    - match: "/\\*"
+      push: comment.block.asy
 
     - match: "'"
       push: string.quoted.single.asy
