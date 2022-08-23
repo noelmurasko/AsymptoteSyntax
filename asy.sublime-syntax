@@ -65,17 +65,20 @@ contexts:
     - match: '\b(const|static|explicit|struct|typedef)\b'
       scope: storage.modifier.asy
 
-    - match: '\.\.\.'
-      scope: keyword.other.asy
+    - match: '\+|\||\^|-|\*|/|%|#|!'
+      scope: keyword.operator.arithmetic.asy
 
-    - match: '\+|&|\||\^|==|!=|-|\*|/|<=|<|>=|>|%|#|\.\.|--|!|---|\^\^|::'
+    - match: '&|==|!=|<=|<|>=|>|::'
+      scope: keyword.operator.logical.asy
+
+    - match: '\.\.\.|\.\.|--|!|---|\^\^|::|\b(new|operator)\b'
       scope: keyword.operator.asy
 
     - match: '\b(if|else|while|for|do|break|return|continue|unravel)\b'
       scope: keyword.control.asy
 
-    - match: '\b(new|operator)\b'
-      scope: keyword.operator.asy
+    #- match: '\b(new|operator)\b'
+    #  scope: keyword.operator.asy
 
     - match: '\b(import|include|as|access|from)\b'
       scope: keyword.other.asy
