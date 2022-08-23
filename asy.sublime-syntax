@@ -65,10 +65,10 @@ contexts:
     - match: '\b(const|static|explicit|struct|typedef)\b'
       scope: storage.modifier.asy
 
-    - match: '<=|>='
-      scope: keyword.operator.asy
+    - match: '\.\.\.'
+      scope: keyword.other.asy
 
-    - match: '\+|&|\||\^|==|!=|-|\*|/|<|>|%|#|\.\.|--|!|---|\^\^|::'
+    - match: '\+|&|\||\^|==|!=|-|\*|/|<=|<|>=|>|%|#|\.\.|--|!|---|\^\^|::'
       scope: keyword.operator.asy
 
     - match: '\b(if|else|while|for|do|break|return|continue|unravel)\b'
