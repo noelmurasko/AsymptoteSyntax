@@ -1,6 +1,6 @@
 # AsymptoteSyntax
 Provides Sublime Text syntax highlighting for *Asymptote: The Vector Graphics Language*. For more information on Asymptote, see https://asymptote.sourceforge.io.
 
-Syntax highlighting supports Asymptote Version 2.84-19 and lower. Later versions may contain grammar not currently recognized.
+Syntax highlighting supports Asymptote Version 2.85-26 and lower. Later versions may contain grammar not currently recognized.
 
 AsymptoteSyntax can be installed via Package Control in sublime. From the `Command Palette`, run `Package Control: Install Package` and search for `Asymptote`.
