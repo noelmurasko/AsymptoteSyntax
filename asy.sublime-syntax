@@ -4,7 +4,7 @@
 # Asymptote: The Vector Graphics Language.
 # For more information on Asymptote, see https://asymptote.sourceforge.io.
 
-# Syntax highlighting supports Asymptote Version 2.85-26 and lower. Later
+# Syntax highlighting supports Asymptote Version 2.87-1 and lower. Later
 # versions may contain grammar not currently recognized.
 
 name: Asymptote
@@ -26,7 +26,7 @@ contexts:
   string.quoted.double.asy:
     - meta_scope: string.quoted.double.asy
     - match: "\\$"
-      push: string.quoted.other.asy
+      push: string.quoted.latex.double.asy
     - match: \\.
       scope: constant.character.escape.asy
     - match: '"'
@@ -35,15 +35,23 @@ contexts:
   string.quoted.single.asy:
     - meta_scope: string.quoted.single.asy
     - match: "\\$"
-      push: string.quoted.other.asy
+      push: string.quoted.latex.single.asy
     - match: \\.
       scope: constant.character.escape.asy
     - match: "'"
       pop: true
 
-  string.quoted.other.asy:
+  string.quoted.latex.double.asy:
     - match: "\\$"
       pop: true
+    - match: '"'
+      pop: 2
+
+  string.quoted.latex.single.asy:
+    - match: "\\$"
+      pop: true
+    - match: "'"
+      pop: 2
 
   main:
 
