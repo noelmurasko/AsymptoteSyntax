@@ -25,33 +25,13 @@ contexts:
 
   string.quoted.double.asy:
     - meta_scope: string.quoted.double.asy
-    - match: "\\$"
-      push: string.quoted.latex.double.asy
-    - match: \\.
-      scope: constant.character.escape.asy
     - match: '"'
       pop: true
 
   string.quoted.single.asy:
     - meta_scope: string.quoted.single.asy
-    - match: "\\$"
-      push: string.quoted.latex.single.asy
-    - match: \\.
-      scope: constant.character.escape.asy
     - match: "'"
       pop: true
-
-  string.quoted.latex.double.asy:
-    - match: "\\$"
-      pop: true
-    - match: '"'
-      pop: 2
-
-  string.quoted.latex.single.asy:
-    - match: "\\$"
-      pop: true
-    - match: "'"
-      pop: 2
 
   main:
 
