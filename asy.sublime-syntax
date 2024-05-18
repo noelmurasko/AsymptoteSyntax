@@ -4,7 +4,7 @@
 # Asymptote: The Vector Graphics Language.
 # For more information on Asymptote, see https://asymptote.sourceforge.io.
 
-# Syntax highlighting supports Asymptote Version 2.87-30 and lower. Later
+# Syntax highlighting supports Asymptote Version 2.90-1 and lower. Later
 # versions may contain grammar not currently recognized.
 
 name: Asymptote
@@ -863,7 +863,6 @@ contexts:
                 |longitude|
                 |lookup|
                 |make3dgrid|
-                |makeMappingArray|
                 |makeNode|
                 |makecircle|
                 |makedraw|
@@ -872,7 +871,6 @@ contexts:
                 |map|
                 |mapArray|
                 |mapArrayString|
-                |mapTemplate|
                 |margin|
                 |markangle|
                 |markangleradius|
@@ -1275,8 +1273,7 @@ contexts:
                 |ztrans)\b'
       scope: support.function.asy
 
-    - match: '((?<=[0-9])|\b)(Accent|
-                |AliceBlue|
+    - match: '((?<=[0-9])|\b)(AliceBlue|
                 |Align|
                 |Allow|
                 |AntiqueWhite|
@@ -1294,18 +1291,13 @@ contexts:
                 |Blue|
                 |BlueGreen|
                 |BlueViolet|
-                |Blues|
                 |Both|
-                |BrBG|
                 |Break|
                 |BrickRed|
                 |Brown|
-                |BuGn|
-                |BuPu|
                 |BurlyWood|
                 |BurntOrange|
                 |CCW|
-                |CMRmap|
                 |CW|
                 |CadetBlue|
                 |CarnationPink|
@@ -1322,7 +1314,6 @@ contexts:
                 |Crop|
                 |Cyan|
                 |Dandelion|
-                |Dark2|
                 |DarkBlue|
                 |DarkCyan|
                 |DarkGoldenrod|
@@ -1367,14 +1358,11 @@ contexts:
                 |Fuchsia|
                 |Gainsboro|
                 |GhostWhite|
-                |GnBu|
                 |Gold|
                 |Goldenrod|
                 |Gray|
                 |Green|
                 |GreenYellow|
-                |Greens|
-                |Greys|
                 |Honeydew|
                 |HookHead|
                 |Horizontal|
@@ -1465,39 +1453,27 @@ contexts:
                 |Olive|
                 |OliveDrab|
                 |OliveGreen|
-                |OrRd|
                 |Orange|
                 |OrangeRed|
-                |Oranges|
                 |Orchid|
                 |Ox|
                 |Oy|
                 |PC|
-                |PRGn|
-                |Paired|
                 |PaleGoldenrod|
                 |PaleGreen|
                 |PaleTurquoise|
                 |PaleVioletRed|
                 |PapayaWhip|
-                |Pastel1|
-                |Pastel2|
                 |Peach|
                 |PeachPuff|
                 |Periwinkle|
                 |Peru|
-                |PiYG|
                 |PineGreen|
                 |Pink|
                 |Plum|
                 |PowderBlue|
                 |ProcessBlue|
-                |PuBu|
-                |PuBuGn|
-                |PuOr|
-                |PuRd|
                 |Purple|
-                |Purples|
                 |RELEASE|
                 |RK2|
                 |RK3|
@@ -1507,15 +1483,9 @@ contexts:
                 |RK5DP|
                 |RK5F|
                 |RawSienna|
-                |RdBu|
-                |RdGy|
-                |RdPu|
-                |RdYlBu|
-                |RdYlGn|
                 |Red|
                 |RedOrange|
                 |RedViolet|
-                |Reds|
                 |Rhodamine|
                 |Right|
                 |RightJustified|
@@ -1535,9 +1505,6 @@ contexts:
                 |SeaGreen|
                 |Seashell|
                 |Sepia|
-                |Set1|
-                |Set2|
-                |Set3|
                 |Sienna|
                 |Silver|
                 |SimpleHead|
@@ -1545,7 +1512,6 @@ contexts:
                 |SlateBlue|
                 |SlateGray|
                 |Snow|
-                |Spectral|
                 |SpringGreen|
                 |SteelBlue|
                 |Suppress|
@@ -1581,10 +1547,6 @@ contexts:
                 |Yellow|
                 |YellowGreen|
                 |YellowOrange|
-                |YlGn|
-                |YlGnBu|
-                |YlOrBr|
-                |YlOrRd|
                 |ZHIGH|
                 |ZLOW|
                 |_outpipe|
@@ -1609,7 +1571,6 @@ contexts:
                 |arrowtexfactor|
                 |artificialColumn|
                 |authorpen|
-                |autumn|
                 |axis|
                 |axiscoverage|
                 |axislabelfactor|
@@ -1624,21 +1585,17 @@ contexts:
                 |beveljoin|
                 |bigvertexpen|
                 |bigvertexsize|
-                |binary|
                 |black|
                 |blue|
                 |bm|
-                |bone|
                 |bottom|
                 |bp|
                 |bracedefaultratio|
                 |braceinnerangle|
                 |bracemidangle|
                 |braceouterangle|
-                |brg|
                 |brown|
                 |bullet|
-                |bwr|
                 |byfoci|
                 |byvertices|
                 |camerafactor|
@@ -1647,7 +1604,6 @@ contexts:
                 |circlenodesnumberfactor|
                 |circleprecision|
                 |circlescale|
-                |cividis|
                 |cm|
                 |codefile|
                 |codepen|
@@ -1657,9 +1613,6 @@ contexts:
                 |coloredSegments|
                 |conditionlength|
                 |conicnodesfactor|
-                |cool|
-                |coolwarm|
-                |copper|
                 |count|
                 |cputimeformat|
                 |crossmarksizefactor|
@@ -1736,9 +1689,6 @@ contexts:
                 |fuzz|
                 |gapfactor|
                 |ghostpen|
-                |gist_earth|
-                |gist_ncar|
-                |gist_stern|
                 |gluonamplitude|
                 |gluonpen|
                 |gluonratio|
@@ -1755,8 +1705,6 @@ contexts:
                 |heavymagenta|
                 |heavyred|
                 |hline|
-                |hot|
-                |hsv|
                 |hwratio|
                 |hyperbolanodesnumberfactor|
                 |identity|
@@ -1767,7 +1715,6 @@ contexts:
                 |inches|
                 |includegraphicscommand|
                 |inf|
-                |inferno|
                 |infinity|
                 |institutionpen|
                 |intMax|
@@ -1777,7 +1724,6 @@ contexts:
                 |itempen|
                 |itemskip|
                 |itemstep|
-                |jet|
                 |labelmargin|
                 |landscape|
                 |lastnode|
@@ -1803,7 +1749,6 @@ contexts:
                 |longdashdotted|
                 |longdashed|
                 |magenta|
-                |magma|
                 |magneticRadius|
                 |mantissaBits|
                 |markangleradius|
@@ -1842,7 +1787,6 @@ contexts:
                 |newbulletcolor|
                 |ngraph|
                 |nil|
-                |nipy_spectral|
                 |nmesh|
                 |nobasealign|
                 |nodeMarginDefault|
@@ -1886,7 +1830,6 @@ contexts:
                 |plain|
                 |plain_bounds|
                 |plain_scaling|
-                |plasma|
                 |plus|
                 |preamblenodes|
                 |pt|
@@ -1909,14 +1852,12 @@ contexts:
                 |salmon|
                 |saveFunctions|
                 |scalarpen|
-                |seismic|
                 |sequencereal|
                 |settings|
                 |signedtrailingzero|
                 |simplex|
                 |solid|
                 |spinner|
-                |spring|
                 |springgreen|
                 |sqrtEpsilon|
                 |squarecap|
@@ -1931,12 +1872,7 @@ contexts:
                 |stickframe|
                 |stickmarksizefactor|
                 |stickmarkspacefactor|
-                |summer|
                 |swap|
-                |tab10|
-                |tab20|
-                |tab20b|
-                |tab20c|
                 |textpen|
                 |ticksize|
                 |tildeframe|
@@ -1956,8 +1892,6 @@ contexts:
                 |trembleFrequency|
                 |trembleRandom|
                 |tubegranularity|
-                |twilight|
-                |twilight_shifted|
                 |undefined|
                 |unitcircle|
                 |unitsquare|
@@ -1971,11 +1905,8 @@ contexts:
                 |vertexsize|
                 |viewportmargin|
                 |viewportsize|
-                |viridis|
                 |vline|
                 |white|
-                |winter|
-                |wistia|
                 |wye|
                 |yellow|
                 |ylabelwidth|
