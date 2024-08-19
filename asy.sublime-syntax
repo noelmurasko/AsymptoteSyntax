@@ -4,7 +4,7 @@
 # Asymptote: The Vector Graphics Language.
 # For more information on Asymptote, see https://asymptote.sourceforge.io.
 
-# Syntax highlighting supports Asymptote Version 2.90-1 and lower. Later
+# Syntax highlighting supports Asymptote Version 2.92-0 and lower. Later
 # versions may contain grammar not currently recognized.
 
 name: Asymptote
@@ -156,7 +156,6 @@ contexts:
                 |scientific|
                 |segment|
                 |side|
-                |simplex|
                 |slice|
                 |solution|
                 |splitface|
@@ -505,6 +504,7 @@ contexts:
                 |ceil|
                 |center|
                 |centerToFocus|
+                |centered|
                 |centroid|
                 |cevian|
                 |change2|
@@ -692,6 +692,7 @@ contexts:
                 |file|
                 |filecode|
                 |fill|
+                |fillbox|
                 |filldraw|
                 |filloutside|
                 |fillrule|
@@ -1099,7 +1100,6 @@ contexts:
                 |shipout3|
                 |show|
                 |simeq|
-                |simplex|
                 |simplexInit|
                 |simplexPhase1|
                 |simplexPhase2|
@@ -1829,7 +1829,6 @@ contexts:
                 |pink|
                 |plain|
                 |plain_bounds|
-                |plain_scaling|
                 |plus|
                 |preamblenodes|
                 |pt|
@@ -1855,7 +1854,6 @@ contexts:
                 |sequencereal|
                 |settings|
                 |signedtrailingzero|
-                |simplex|
                 |solid|
                 |spinner|
                 |springgreen|
