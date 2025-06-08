@@ -4,7 +4,7 @@
 # Asymptote: The Vector Graphics Language.
 # For more information on Asymptote, see https://asymptote.sourceforge.io.
 
-# Syntax highlighting supports Asymptote Version 2.92-0 and lower. Later
+# Syntax highlighting supports Asymptote Version 3.05-6 and lower. Later
 # versions may contain grammar not currently recognized.
 
 name: Asymptote
@@ -78,9 +78,11 @@ contexts:
                 |curl|
                 |struct|
                 |typedef|
+                |using|
                 |new|
                 |quote|
                 |static|
+                |autounravel|
                 |public|
                 |private|
                 |restricted|
@@ -103,6 +105,7 @@ contexts:
                 |abscissa|
                 |arc|
                 |arrowhead|
+                |arrowhead3|
                 |binarytree|
                 |binarytreeNode|
                 |block|
@@ -126,14 +129,17 @@ contexts:
                 |hsv|
                 |hyperbola|
                 |int|
+                |interaction|
                 |inversion|
                 |key|
                 |light|
                 |line|
                 |linefit|
                 |marginT|
+                |marginT3|
                 |marker|
                 |mass|
+                |material|
                 |node|
                 |object|
                 |pair|
@@ -151,6 +157,7 @@ contexts:
                 |real|
                 |realschur|
                 |revolution|
+                |rmf|
                 |scaleT|
                 |schur|
                 |scientific|
@@ -180,9 +187,13 @@ contexts:
                 |Align|
                 |Arc|
                 |ArcArrow|
+                |ArcArrow3|
                 |ArcArrows|
+                |ArcArrows3|
                 |Arrow|
+                |Arrow3|
                 |Arrows|
+                |Arrows3|
                 |AtA|
                 |Automatic|
                 |AvantGarde|
@@ -194,13 +205,22 @@ contexts:
                 |BWRainbow|
                 |BWRainbow2|
                 |Bar|
+                |Bar3|
                 |Bars|
+                |Bars3|
                 |BeginArcArrow|
+                |BeginArcArrow3|
                 |BeginArrow|
+                |BeginArrow3|
                 |BeginBar|
+                |BeginBar3|
                 |BeginDotMargin|
+                |BeginDotMargin3|
                 |BeginMargin|
+                |BeginMargin3|
                 |BeginPenMargin|
+                |BeginPenMargin2|
+                |BeginPenMargin3|
                 |Blank|
                 |Bookman|
                 |Bottom|
@@ -220,21 +240,32 @@ contexts:
                 |DOSendl|
                 |DOSnewl|
                 |DefaultFormat|
+                |DefaultHead2|
                 |DefaultLogFormat|
                 |Degrees|
                 |Dir|
                 |DotMargin|
+                |DotMargin3|
                 |DotMargins|
+                |DotMargins3|
                 |Dotted|
+                |DoubleLineMidArrow|
                 |Draw|
                 |Drawline|
                 |Embed|
                 |EndArcArrow|
+                |EndArcArrow3|
                 |EndArrow|
+                |EndArrow3|
                 |EndBar|
+                |EndBar3|
                 |EndDotMargin|
+                |EndDotMargin3|
                 |EndMargin|
+                |EndMargin3|
                 |EndPenMargin|
+                |EndPenMargin2|
+                |EndPenMargin3|
                 |Fill|
                 |FillDraw|
                 |Finite|
@@ -249,10 +280,13 @@ contexts:
                 |Helvetica|
                 |Hermite|
                 |HookHead|
+                |HookHead2|
+                |HookHead3|
                 |InOutTicks|
                 |InTicks|
                 |Jn|
                 |Label|
+                |LabelInteraction|
                 |Landscape|
                 |Left|
                 |LeftRight|
@@ -262,14 +296,19 @@ contexts:
                 |Log|
                 |LogFormat|
                 |Margin|
+                |Margin3|
                 |Margins|
+                |Margins3|
                 |Mark|
                 |MidArcArrow|
+                |MidArcArrow3|
                 |MidArrow|
+                |MidArrow3|
                 |NOT|
                 |NewCenturySchoolBook|
                 |NoBox|
                 |NoMargin|
+                |NoMargin3|
                 |NoModifier|
                 |NoTicks|
                 |NoTicks3|
@@ -288,7 +327,11 @@ contexts:
                 |PaletteTicks|
                 |Pen|
                 |PenMargin|
+                |PenMargin2|
+                |PenMargin3|
                 |PenMargins|
+                |PenMargins2|
+                |PenMargins3|
                 |Pentype|
                 |Portrait|
                 |RGB|
@@ -315,6 +358,7 @@ contexts:
                 |Straight|
                 |Symbol|
                 |Tan|
+                |TeXHead2|
                 |TeXify|
                 |Ticks|
                 |Ticks3|
@@ -322,6 +366,7 @@ contexts:
                 |TimesRoman|
                 |Top|
                 |TrueMargin|
+                |TrueMargin3|
                 |UnFill|
                 |UpsideDown|
                 |Wheel|
@@ -332,22 +377,28 @@ contexts:
                 |XYEquals|
                 |XYZero|
                 |XYgrid|
+                |XYplane|
+                |XZ|
                 |XZEquals|
                 |XZZero|
                 |XZero|
                 |XZgrid|
                 |Y|
                 |YEquals|
+                |YX|
                 |YXgrid|
                 |YZ|
                 |YZEquals|
                 |YZZero|
                 |YZero|
                 |YZgrid|
+                |YZplane|
                 |Yn|
                 |Z|
                 |ZX|
                 |ZXgrid|
+                |ZXplane|
+                |ZY|
                 |ZYgrid|
                 |ZapfChancery|
                 |ZapfDingbats|
@@ -369,22 +420,33 @@ contexts:
                 |abort|
                 |abs|
                 |abs2|
+                |absorthographic|
+                |absperspective|
                 |accel|
                 |acos|
+                |acos1|
                 |acosh|
                 |acot|
                 |acsc|
                 |activatequote|
                 |add|
+                |add2|
                 |addArrow|
                 |addMargins|
+                |addPath|
                 |addSaveFunction|
+                |addStereoViews|
+                |addViews|
                 |addpenarc|
                 |addpenline|
                 |addseg|
                 |adjust|
+                |adjustedIndex|
+                |aim|
                 |alias|
                 |align|
+                |alignshift|
+                |aligntransform|
                 |all|
                 |altitude|
                 |angabscissa|
@@ -396,6 +458,7 @@ contexts:
                 |anticomplementary|
                 |antipedal|
                 |apply|
+                |approach|
                 |approximate|
                 |arc|
                 |arcarrowsize|
@@ -419,6 +482,7 @@ contexts:
                 |ascii|
                 |asec|
                 |asin|
+                |asin1|
                 |asinh|
                 |ask|
                 |assert|
@@ -459,7 +523,9 @@ contexts:
                 |begin|
                 |beginclip|
                 |begingroup|
+                |begingroup3|
                 |beginpoint|
+                |bend|
                 |between|
                 |bevel|
                 |bezier|
@@ -493,6 +559,7 @@ contexts:
                 |byte|
                 |byteinv|
                 |calculateScaling|
+                |camera|
                 |canonical|
                 |canonicalcartesiansystem|
                 |cartesiansystem|
@@ -509,6 +576,7 @@ contexts:
                 |cevian|
                 |change2|
                 |changecoordsys|
+                |checkEmpty|
                 |checkSegment|
                 |check_fpt_zero|
                 |checkconditionlength|
@@ -544,6 +612,7 @@ contexts:
                 |compassmark|
                 |complement|
                 |complementary|
+                |computeNormals|
                 |concat|
                 |concurrent|
                 |cone|
@@ -558,6 +627,8 @@ contexts:
                 |contour3|
                 |controlSpecifier|
                 |convert|
+                |coons|
+                |coons3|
                 |coordinates|
                 |coordsys|
                 |copy|
@@ -608,6 +679,7 @@ contexts:
                 |dirtime|
                 |display|
                 |distance|
+                |distort|
                 |divisors|
                 |do_overpaint|
                 |dot|
@@ -615,6 +687,7 @@ contexts:
                 |dotsize|
                 |downcase|
                 |draw|
+                |draw3D|
                 |drawAll|
                 |drawCylinder|
                 |drawDisk|
@@ -626,6 +699,7 @@ contexts:
                 |drawPhoton|
                 |drawScalar|
                 |drawSphere|
+                |drawTessellation|
                 |drawTube|
                 |drawVertex|
                 |drawVertexBox|
@@ -649,7 +723,10 @@ contexts:
                 |ellipsenodesnumber|
                 |embed|
                 |embed3|
+                |embed3D|
+                |embedder|
                 |embedplayer|
+                |emissive|
                 |empty|
                 |enclose|
                 |end|
@@ -683,6 +760,7 @@ contexts:
                 |extend|
                 |extension|
                 |extouch|
+                |extrude|
                 |fabs|
                 |factorial|
                 |fermat|
@@ -706,7 +784,9 @@ contexts:
                 |firstframe|
                 |fit|
                 |fit2|
+                |fit3|
                 |fixedscaling|
+                |flip|
                 |floor|
                 |flush|
                 |fmdefaults|
@@ -754,6 +834,7 @@ contexts:
                 |history|
                 |hline|
                 |hprojection|
+                |hsplit|
                 |hsv|
                 |hyperbola|
                 |hyperbolanodesnumber|
@@ -789,6 +870,7 @@ contexts:
                 |intouch|
                 |inverse|
                 |inversion|
+                |invert|
                 |invisible|
                 |is3D|
                 |isDuplicate|
@@ -802,6 +884,7 @@ contexts:
                 |italic|
                 |item|
                 |jobname|
+                |join3|
                 |key|
                 |kurtosis|
                 |kurtosisexcess|
@@ -862,8 +945,10 @@ contexts:
                 |log1p|
                 |logaxiscoverage|
                 |longitude|
+                |look|
                 |lookup|
                 |make3dgrid|
+                |makeMappingArray|
                 |makeNode|
                 |makecircle|
                 |makedraw|
@@ -886,6 +971,7 @@ contexts:
                 |mass|
                 |masscenter|
                 |massformat|
+                |material|
                 |math|
                 |max|
                 |max3|
@@ -899,6 +985,7 @@ contexts:
                 |mean|
                 |medial|
                 |median|
+                |meshname|
                 |midpoint|
                 |min|
                 |min3|
@@ -930,13 +1017,20 @@ contexts:
                 |node|
                 |none|
                 |norm|
+                |normal|
                 |normalout|
                 |normalvideo|
                 |notaknot|
                 |nowarn|
+                |nullpath3|
                 |numberpage|
                 |nurb|
                 |object|
+                |oblique|
+                |obliqueX|
+                |obliqueY|
+                |obliqueZ|
+                |octant1|
                 |offset|
                 |onpath|
                 |opacity|
@@ -947,12 +1041,14 @@ contexts:
                 |orthic|
                 |orthocenter|
                 |orthocentercenter|
+                |orthographic|
                 |outdirectory|
                 |outformat|
                 |outline|
                 |outname|
                 |outprefix|
                 |output|
+                |overlap|
                 |overloadedMessage|
                 |overwrite|
                 |pack|
@@ -964,6 +1060,7 @@ contexts:
                 |parallel|
                 |parallelogram|
                 |partialsum|
+                |partname|
                 |patchwithnormals|
                 |path|
                 |path3|
@@ -977,6 +1074,7 @@ contexts:
                 |perp|
                 |perpendicular|
                 |perpendicularmark|
+                |perspective|
                 |phantom|
                 |phi1|
                 |phi2|
@@ -984,12 +1082,16 @@ contexts:
                 |phi4|
                 |photon|
                 |piecewisestraight|
+                |pixel|
+                |plane|
+                |planeproject|
                 |point|
                 |polar|
                 |polarconicroutine|
                 |polargraph|
                 |polygon|
                 |popcount|
+                |position|
                 |postcontrol|
                 |postscript|
                 |pow10|
@@ -1023,6 +1125,7 @@ contexts:
                 |radius|
                 |rand|
                 |randompath|
+                |randompath3|
                 |rationalidentity|
                 |rd|
                 |readline|
@@ -1031,7 +1134,9 @@ contexts:
                 |rectangle|
                 |rectangular|
                 |rectify|
+                |reference|
                 |reflect|
+                |regularize|
                 |relabscissa|
                 |relative|
                 |relativedistance|
@@ -1055,6 +1160,7 @@ contexts:
                 |rgb|
                 |rgba|
                 |rgbint|
+                |rmf|
                 |rms|
                 |rotate|
                 |rotateO|
@@ -1143,6 +1249,9 @@ contexts:
                 |strokepath|
                 |subdivide|
                 |subitem|
+                |subpatch|
+                |subpatchbegin|
+                |subpatchend|
                 |subpath|
                 |substr|
                 |sum|
@@ -1159,6 +1268,7 @@ contexts:
                 |tanh|
                 |tell|
                 |tensionSpecifier|
+                |tensor|
                 |tensorshade|
                 |tex|
                 |texcolor|
@@ -1170,6 +1280,7 @@ contexts:
                 |texsize|
                 |texstring|
                 |textpath|
+                |theta|
                 |thick|
                 |thin|
                 |tick|
@@ -1189,6 +1300,7 @@ contexts:
                 |titlepage|
                 |topbox|
                 |transform|
+                |transform3|
                 |transformation|
                 |transpose|
                 |trembleFuzz|
@@ -1202,6 +1314,7 @@ contexts:
                 |tridiagonal|
                 |trilinear|
                 |trim|
+                |triples|
                 |truepoint|
                 |tube|
                 |uncycle|
@@ -1209,9 +1322,13 @@ contexts:
                 |uniform|
                 |unique|
                 |unit|
+                |unitcylinderDraw|
+                |unitfrustum|
+                |unitfrustum1|
                 |unitrand|
                 |unitsize|
                 |unityroot|
+                |unscaled|
                 |unstraighten|
                 |upcase|
                 |updatefunction|
@@ -1230,9 +1347,11 @@ contexts:
                 |vectorfield|
                 |verbatim|
                 |view|
+                |viewportmargin|
                 |vline|
                 |vperiodic|
                 |vprojection|
+                |vsplit|
                 |warn|
                 |warning|
                 |windingnumber|
@@ -1247,10 +1366,12 @@ contexts:
                 |xmap|
                 |xpart|
                 |xscale|
+                |xscale3|
                 |xscaleO|
                 |xtick|
                 |xtick3|
                 |xtrans|
+                |xypart|
                 |yaxis|
                 |yaxis3|
                 |yaxis3At|
@@ -1259,6 +1380,7 @@ contexts:
                 |ylimits|
                 |ypart|
                 |yscale|
+                |yscale3|
                 |yscaleO|
                 |ytick|
                 |ytick3|
@@ -1268,12 +1390,14 @@ contexts:
                 |zero|
                 |zlimits|
                 |zpart|
+                |zscale3|
                 |ztick|
                 |ztick3|
                 |ztrans)\b'
       scope: support.function.asy
 
-    - match: '((?<=[0-9])|\b)(AliceBlue|
+    - match: '((?<=[0-9])|\b)(Accent|
+                |AliceBlue|
                 |Align|
                 |Allow|
                 |AntiqueWhite|
@@ -1282,8 +1406,10 @@ contexts:
                 |Aquamarine|
                 |Aspect|
                 |Azure|
+                |BackView|
                 |BeginPoint|
                 |Beige|
+                |Billboard|
                 |Bisque|
                 |Bittersweet|
                 |Black|
@@ -1291,13 +1417,19 @@ contexts:
                 |Blue|
                 |BlueGreen|
                 |BlueViolet|
+                |Blues|
                 |Both|
+                |BottomView|
+                |BrBG|
                 |Break|
                 |BrickRed|
                 |Brown|
+                |BuGn|
+                |BuPu|
                 |BurlyWood|
                 |BurntOrange|
                 |CCW|
+                |CMRmap|
                 |CW|
                 |CadetBlue|
                 |CarnationPink|
@@ -1314,6 +1446,7 @@ contexts:
                 |Crop|
                 |Cyan|
                 |Dandelion|
+                |Dark2|
                 |DarkBlue|
                 |DarkCyan|
                 |DarkGoldenrod|
@@ -1334,6 +1467,8 @@ contexts:
                 |DeepPink|
                 |DeepSkyBlue|
                 |DefaultHead|
+                |DefaultHead2|
+                |DefaultHead3|
                 |DimGray|
                 |DodgerBlue|
                 |Dotted|
@@ -1347,6 +1482,7 @@ contexts:
                 |E_PC|
                 |E_RK2|
                 |E_RK3BS|
+                |Embedded|
                 |Emerald|
                 |EndPoint|
                 |Euler|
@@ -1355,16 +1491,25 @@ contexts:
                 |FireBrick|
                 |FloralWhite|
                 |ForestGreen|
+                |FrontView|
                 |Fuchsia|
+                |Fuzz|
                 |Gainsboro|
                 |GhostWhite|
+                |GnBu|
                 |Gold|
                 |Goldenrod|
                 |Gray|
                 |Green|
                 |GreenYellow|
+                |Greens|
+                |Greys|
+                |Headlamp|
+                |High|
                 |Honeydew|
                 |HookHead|
+                |HookHead2|
+                |HookHead3|
                 |Horizontal|
                 |HotPink|
                 |I|
@@ -1389,6 +1534,7 @@ contexts:
                 |Left|
                 |LeftJustified|
                 |LeftSide|
+                |LeftView|
                 |LemonChiffon|
                 |LightBlue|
                 |LightCoral|
@@ -1409,6 +1555,7 @@ contexts:
                 |Linen|
                 |Log|
                 |Logarithmic|
+                |Low|
                 |Magenta|
                 |Mahogany|
                 |Mark|
@@ -1417,6 +1564,7 @@ contexts:
                 |MarkPath|
                 |Maroon|
                 |Max|
+                |Medium|
                 |MediumAquamarine|
                 |MediumBlue|
                 |MediumOrchid|
@@ -1441,6 +1589,7 @@ contexts:
                 |NNE|
                 |NNW|
                 |NULL_VERTEX|
+                |NURBSsphere|
                 |NW|
                 |NavajoWhite|
                 |Navy|
@@ -1449,31 +1598,45 @@ contexts:
                 |NoCrop|
                 |NoFill|
                 |NoSide|
+                |O|
                 |OldLace|
                 |Olive|
                 |OliveDrab|
                 |OliveGreen|
+                |OrRd|
                 |Orange|
                 |OrangeRed|
+                |Oranges|
                 |Orchid|
                 |Ox|
                 |Oy|
                 |PC|
+                |PRCsphere|
+                |PRGn|
+                |Paired|
                 |PaleGoldenrod|
                 |PaleGreen|
                 |PaleTurquoise|
                 |PaleVioletRed|
                 |PapayaWhip|
+                |Pastel1|
+                |Pastel2|
                 |Peach|
                 |PeachPuff|
                 |Periwinkle|
                 |Peru|
+                |PiYG|
                 |PineGreen|
                 |Pink|
                 |Plum|
                 |PowderBlue|
                 |ProcessBlue|
+                |PuBu|
+                |PuBuGn|
+                |PuOr|
+                |PuRd|
                 |Purple|
+                |Purples|
                 |RELEASE|
                 |RK2|
                 |RK3|
@@ -1483,13 +1646,20 @@ contexts:
                 |RK5DP|
                 |RK5F|
                 |RawSienna|
+                |RdBu|
+                |RdGy|
+                |RdPu|
+                |RdYlBu|
+                |RdYlGn|
                 |Red|
                 |RedOrange|
                 |RedViolet|
+                |Reds|
                 |Rhodamine|
                 |Right|
                 |RightJustified|
                 |RightSide|
+                |RightView|
                 |RosyBrown|
                 |RoyalBlue|
                 |RoyalPurple|
@@ -1505,30 +1675,45 @@ contexts:
                 |SeaGreen|
                 |Seashell|
                 |Sepia|
+                |Set1|
+                |Set2|
+                |Set3|
                 |Sienna|
                 |Silver|
                 |SimpleHead|
+                |Single|
+                |SixViews|
+                |SixViewsFR|
+                |SixViewsUS|
                 |SkyBlue|
                 |SlateBlue|
                 |SlateGray|
                 |Snow|
+                |Spectral|
                 |SpringGreen|
                 |SteelBlue|
                 |Suppress|
                 |SuppressQuiet|
                 |Tan|
                 |TeXHead|
+                |TeXHead2|
+                |TeXHead3|
                 |Teal|
                 |TealBlue|
                 |Thistle|
+                |ThreeViews|
+                |ThreeViewsFR|
+                |ThreeViewsUS|
                 |Ticksize|
                 |Tomato|
+                |TopView|
                 |Turquoise|
                 |UnFill|
                 |Up|
                 |VERSION|
                 |Value|
                 |Vertical|
+                |Viewport|
                 |Violet|
                 |VioletRed|
                 |W|
@@ -1538,23 +1723,39 @@ contexts:
                 |White|
                 |WhiteSmoke|
                 |WildStrawberry|
+                |X|
                 |XHIGH|
                 |XLOW|
+                |XY|
                 |XYAlign|
+                |XZ|
+                |Y|
                 |YAlign|
                 |YHIGH|
                 |YLOW|
+                |YX|
+                |YZ|
                 |Yellow|
                 |YellowGreen|
                 |YellowOrange|
+                |YlGn|
+                |YlGnBu|
+                |YlOrBr|
+                |YlOrRd|
+                |Z|
                 |ZHIGH|
                 |ZLOW|
+                |ZX|
+                |ZY|
+                |Zero|
                 |_outpipe|
+                |a|
                 |aboveequationskip|
                 |addpenarc|
                 |addpenline|
                 |align|
                 |allowstepping|
+                |angleprecision|
                 |angularsystem|
                 |animationdelay|
                 |appendsuffix|
@@ -1571,6 +1772,7 @@ contexts:
                 |arrowtexfactor|
                 |artificialColumn|
                 |authorpen|
+                |autumn|
                 |axis|
                 |axiscoverage|
                 |axislabelfactor|
@@ -1585,17 +1787,21 @@ contexts:
                 |beveljoin|
                 |bigvertexpen|
                 |bigvertexsize|
+                |binary|
                 |black|
                 |blue|
                 |bm|
+                |bone|
                 |bottom|
                 |bp|
                 |bracedefaultratio|
                 |braceinnerangle|
                 |bracemidangle|
                 |braceouterangle|
+                |brg|
                 |brown|
                 |bullet|
+                |bwr|
                 |byfoci|
                 |byvertices|
                 |camerafactor|
@@ -1604,6 +1810,7 @@ contexts:
                 |circlenodesnumberfactor|
                 |circleprecision|
                 |circlescale|
+                |cividis|
                 |cm|
                 |codefile|
                 |codepen|
@@ -1613,6 +1820,9 @@ contexts:
                 |coloredSegments|
                 |conditionlength|
                 |conicnodesfactor|
+                |cool|
+                |coolwarm|
+                |copper|
                 |count|
                 |cputimeformat|
                 |crossmarksizefactor|
@@ -1654,12 +1864,19 @@ contexts:
                 |defaultS|
                 |defaultbackpen|
                 |defaultcoordsys|
+                |defaultembed3Doptions|
+                |defaultembed3Dscript|
                 |defaultexcursion|
+                |defaulteyetoview|
                 |defaultfilename|
                 |defaultformat|
+                |defaultfresnel0|
                 |defaultmassformat|
+                |defaultmetallic|
                 |defaultpen|
+                |defaultrender|
                 |defaultseparator|
+                |defaultshininess|
                 |diamond|
                 |differentlengths|
                 |dot|
@@ -1689,6 +1906,9 @@ contexts:
                 |fuzz|
                 |gapfactor|
                 |ghostpen|
+                |gist_earth|
+                |gist_ncar|
+                |gist_stern|
                 |gluonamplitude|
                 |gluonpen|
                 |gluonratio|
@@ -1705,8 +1925,11 @@ contexts:
                 |heavymagenta|
                 |heavyred|
                 |hline|
+                |hot|
+                |hsv|
                 |hwratio|
                 |hyperbolanodesnumberfactor|
+                |i|
                 |identity|
                 |identity4|
                 |ignore|
@@ -1715,6 +1938,7 @@ contexts:
                 |inches|
                 |includegraphicscommand|
                 |inf|
+                |inferno|
                 |infinity|
                 |institutionpen|
                 |intMax|
@@ -1724,6 +1948,7 @@ contexts:
                 |itempen|
                 |itemskip|
                 |itemstep|
+                |jet|
                 |labelmargin|
                 |landscape|
                 |lastnode|
@@ -1749,6 +1974,7 @@ contexts:
                 |longdashdotted|
                 |longdashed|
                 |magenta|
+                |magma|
                 |magneticRadius|
                 |mantissaBits|
                 |markangleradius|
@@ -1756,6 +1982,7 @@ contexts:
                 |markanglespace|
                 |markanglespacefactor|
                 |maxDenominator|
+                |maxangleiterations|
                 |maxrefinements|
                 |mediumblue|
                 |mediumcyan|
@@ -1787,17 +2014,31 @@ contexts:
                 |newbulletcolor|
                 |ngraph|
                 |nil|
+                |nineth|
+                |nipy_spectral|
                 |nmesh|
+                |noTension|
                 |nobasealign|
+                |nocontrol|
                 |nodeMarginDefault|
                 |nodesystem|
+                |nolight|
                 |nomarker|
                 |nopoint|
                 |noprimary|
+                |nslice|
                 |nullpath|
                 |nullpen|
+                |nullpens|
+                |nullsurface|
                 |numarray|
+                |oblique|
+                |obliqueX|
+                |obliqueY|
+                |obliqueZ|
                 |ocgindex|
+                |octant1|
+                |octant1x|
                 |oldbulletcolor|
                 |olive|
                 |optimizeTableau|
@@ -1829,6 +2070,7 @@ contexts:
                 |pink|
                 |plain|
                 |plain_bounds|
+                |plasma|
                 |plus|
                 |preamblenodes|
                 |pt|
@@ -1851,11 +2093,13 @@ contexts:
                 |salmon|
                 |saveFunctions|
                 |scalarpen|
+                |seismic|
                 |sequencereal|
                 |settings|
                 |signedtrailingzero|
                 |solid|
                 |spinner|
+                |spring|
                 |springgreen|
                 |sqrtEpsilon|
                 |squarecap|
@@ -1870,7 +2114,15 @@ contexts:
                 |stickframe|
                 |stickmarksizefactor|
                 |stickmarkspacefactor|
+                |summer|
                 |swap|
+                |t1|
+                |t2|
+                |t3|
+                |tab10|
+                |tab20|
+                |tab20b|
+                |tab20c|
                 |textpen|
                 |ticksize|
                 |tildeframe|
@@ -1890,9 +2142,24 @@ contexts:
                 |trembleFrequency|
                 |trembleRandom|
                 |tubegranularity|
+                |tubethreshold|
+                |twilight|
+                |twilight_shifted|
                 |undefined|
+                |unitbox|
                 |unitcircle|
+                |unitcircle3|
+                |unitcone|
+                |unitcube|
+                |unitcylinder|
+                |unitcylinder1|
+                |unitdisk|
+                |unithemisphere|
+                |unitplane|
+                |unitsolidcone|
+                |unitsphere|
                 |unitsquare|
+                |unitsquare3|
                 |up|
                 |urlpen|
                 |urlskip|
@@ -1903,8 +2170,11 @@ contexts:
                 |vertexsize|
                 |viewportmargin|
                 |viewportsize|
+                |viridis|
                 |vline|
                 |white|
+                |winter|
+                |wistia|
                 |wye|
                 |yellow|
                 |ylabelwidth|
